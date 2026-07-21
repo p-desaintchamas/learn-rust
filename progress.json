@@ -7,5 +7,7 @@
   "focus_minutes": 30,
   "total_lessons": 30,
   "notes": "The morning Routine appends to `delivered` (one entry per lesson it sends) and is idempotent per date. Set completed:true yourself after finishing a day if you like — it's for you, not required.",
-  "delivered": []
+  "delivered": [
+    { "day": 1, "date": "2026-07-21", "calendar_event_id": "d4m7l5as94iud1jhca5g6sfugg", "completed": false }
+  ]
 }
