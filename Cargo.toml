@@ -1,0 +1,14 @@
+[package]
+name = "streak"
+version = "0.1.0"
+edition = "2021"
+description = "A focus-session & learning-streak tracker — the project you build while learning Rust."
+
+# Dependencies are added deliberately, one lesson at a time, so you always know
+# why each crate is here. The plan introduces them around these days:
+#   Day 17  serde / serde_json   (JSON persistence)
+#   Day 18  clap                 (CLI subcommands)
+#   Day 19  chrono               (dates & time)
+#   Day 23  anyhow / thiserror   (error handling)
+#   Day 28  toml                 (config file)
+[dependencies]

@@ -1,0 +1,11 @@
+{
+  "project": "streak",
+  "start_date": "2026-07-21",
+  "timezone": "Europe/Paris",
+  "cadence": "weekdays",
+  "send_time_local": "08:00",
+  "focus_minutes": 30,
+  "total_lessons": 30,
+  "notes": "The morning Routine appends to `delivered` (one entry per lesson it sends) and is idempotent per date. Set completed:true yourself after finishing a day if you like — it's for you, not required.",
+  "delivered": []
+}
